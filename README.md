@@ -86,7 +86,7 @@ où :
 - \(R_t = (\log(S^1_t/S^1_{t-1}), \ldots, \log(S^d_t/S^d_{t-1}))\),
 - \(\mu_t = \left( (r - \frac{\sigma_1^2}{2})t, \ldots, (r - \frac{\sigma_d^2}{2})t \right)\),
 - \(L\) est la racine de Cholesky de la matrice de covariance \(\Sigma\),
-- \(Z_t\) est un vecteur standard normal.
+- $Z_t$ est un vecteur standard normal.
 
 ---
 
