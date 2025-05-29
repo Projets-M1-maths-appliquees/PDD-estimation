@@ -83,7 +83,7 @@ $$
 
 
 $$
-\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} (\sum_{t=0}^{T-1} hhhh )
+\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} (\sum )
 $$
 
 --- 
