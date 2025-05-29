@@ -31,12 +31,6 @@ $$
 S_t = S_0 \cdot \exp \left( \left( r - \frac{1}{2} \sigma^2 \right) t + \sigma W_t \right)
 $$
 
-La loi de \(S_t\) est lognormale sous \(\mathbb{Q}\) :
-
-$$
-S_t \sim \text{LogNormal} \left( \ln(S_0) + \left( r - \frac{1}{2} \sigma^2 \right)t, \sigma^2 t \right)
-$$
-
 ---
 
 ### PDD espéré sur une intervalle de temps prolongée
