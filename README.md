@@ -70,7 +70,9 @@ $$
 \lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ \cdot \mathbf{1}_{\left\{ S_{t+1} \leq \alpha S_a \right\}} \cdot \mathbf{1}_{\left\{ \sup\limits_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a \right\}}
 $$
 
-
+$$
+\lambda_t(r, \sigma, S_a, S_0) = 
+$$
 
 --- 
 
