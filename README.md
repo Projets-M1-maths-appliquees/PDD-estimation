@@ -14,7 +14,7 @@ Nous simulons des trajectoires d’actifs sous dynamique stochastique (Black-Sch
 
 ### Dynamique des actifs
 
-Les actifs $S_t$ sont modélisés sous la mesure risque-neutre \(\mathbb{Q}\) par une équation de Black-Scholes :
+Les actifs $S_t$ sont modélisés sous la mesure risque-neutre $\mathbb{Q}$ par une équation de Black-Scholes :
 
 $$
 dS_t = r S_t dt + \sigma S_t dW_t
