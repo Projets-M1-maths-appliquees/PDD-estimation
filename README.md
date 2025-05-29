@@ -117,7 +117,7 @@ $$
 
 
 $$
-\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} 
+\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[  \right]
 $$
 
 ---
