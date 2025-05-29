@@ -94,19 +94,19 @@ où :
 
 On estime les dérivées partielles par différences finies :  
 
-- **Delta** (sensibilité à \(S_0\)) :
+- **Delta** (sensibilité à $S_0$) :
 
 $$
 \Delta = \frac{\partial \text{PDD}}{\partial S_0}
 $$
 
-- **Vega** (sensibilité à \(\sigma\)) :
+- **Vega** (sensibilité à $\sigma$) :
 
 $$
 \text{Vega} = \frac{\partial \text{PDD}}{\partial \sigma}
 $$
 
-- **Rho** (sensibilité à \(r\)) :
+- **Rho** (sensibilité à $r$) :
 
 $$
 \text{Rho} = \frac{\partial \text{PDD}}{\partial r}
