@@ -14,16 +14,16 @@ Nous simulons des trajectoires d’actifs sous dynamique stochastique (Black-Sch
 
 ### Dynamique des actifs
 
-Les actifs \(S_t\) sont modélisés sous la mesure risque-neutre \(\mathbb{Q}\) par une équation de Black-Scholes :
+Les actifs $S_t$ sont modélisés sous la mesure risque-neutre \(\mathbb{Q}\) par une équation de Black-Scholes :
 
 $$
 dS_t = r S_t dt + \sigma S_t dW_t
 $$
 
 où :
-- \(r\) est le taux sans risque,
-- \(\sigma\) est la volatilité,
-- \(W_t\) est un mouvement brownien standard.
+- $r$ est le taux sans risque,
+- $\sigma$ est la volatilité,
+- $W_t$ est un mouvement brownien standard.
 
 La solution exacte de cette EDS est donnée par la formule fermée :
 
@@ -35,8 +35,8 @@ $$
 
 ### PDD espéré sur une intervalle de temps prolongée
 
-Pour un actif acquis au prix \(S_a\), la PDD est calculée lorsqu’une **double condition** est remplie :  
-1. En fin de période \(t+1\) : \(S_{t+1} \leq \alpha S_a\) (baisse d’au moins \(\alpha\)).  
+Pour un actif acquis au prix $S_a$, la PDD est calculée lorsqu’une **double condition** est remplie :  
+1. En fin de période $t+1$ : $S_{t+1} \leq \alpha S_a$ (baisse d’au moins $\alpha$).  
 2. Pendant le dernier semestre de la période :  
 
 $$
@@ -74,7 +74,7 @@ Cette formule corrige le biais des schémas de discrétisation.
 
 ### Dépendances entre actifs
 
-Pour un portefeuille de \(d\) actifs \(S^1, \ldots, S^d\), on modélise les corrélations en simulant un vecteur gaussien multivarié via la décomposition de Cholesky :
+Pour un portefeuille de $d$ actifs $S^1, \ldots, S^d$, on modélise les corrélations en simulant un vecteur gaussien multivarié via la décomposition de Cholesky :
 
 $$
 R_t = \mu_t + L Z_t
