@@ -60,23 +60,6 @@ $$
 \text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum_{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
 $$
 
-
-
-
-
----
-
-
-## Formulation mathématique
-
-On définit la perte à chaque période \( t \) comme suit :
-
-```latex
-\lambda_t(r, \sigma, S_a, S_0) = (S_a - S_{t+1})^+ \cdot \mathbf{1}_{\{ S_{t+1} \leq \alpha S_a \}} \cdot \mathbf{1}_{\left\{ \sup_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a \right\}}
-
-
----
-
 ---
 
 ### Franchissement de barrière et pont brownien
@@ -89,6 +72,19 @@ $$
 
 où $a = Z_{t_1}$ et $b = Z_{t_2}$.  
 Cette formule corrige le biais des schémas de discrétisation.
+
+---
+
+
+$$
+\lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ \cdot \mathbf{1}_{ \{ S_{t+1} \leq \alpha S_a \} } \cdot \mathbf{1}_{ \left\{ \sup_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a \right\} }
+$$
+
+La Provision pour Dépréciation Durable (PDD) cumulée sur \(T\) périodes est donnée par :  
+
+$$
+\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum_{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
+$$
 
 ---
 
