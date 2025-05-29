@@ -62,6 +62,21 @@ $$
 
 
 
+
+
+---
+
+
+## Formulation mathématique
+
+On définit la perte à chaque période \( t \) comme suit :
+
+```latex
+\lambda_t(r, \sigma, S_a, S_0) = (S_a - S_{t+1})^+ \cdot \mathbf{1}_{\{ S_{t+1} \leq \alpha S_a \}} \cdot \mathbf{1}_{\left\{ \sup_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a \right\}}
+
+
+---
+
 ---
 
 ### Franchissement de barrière et pont brownien
