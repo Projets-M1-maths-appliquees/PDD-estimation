@@ -57,41 +57,8 @@ $$
 La PDD cumulée sur $T$ périodes est donnée par :
 
 $$
-\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum_{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
+\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
 $$
-
----
-
-
-
-$$
-\lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ \cdot \mathbf{1}\left\{ S_{t+1} \leq \alpha S_a \right\} \cdot \mathbf{1} \left\{ \sup\limits_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a \right\}
-$$
-
-La PDD cumulée sur $T$ périodes est donnée par :
-
-$$
-\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum_{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
-$$
-
-
-
-
-$$
-\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} (\sum_{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0))
-$$
-
-
-$$
-\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} (\sum^{t=0} )
-$$
-
-
-$$
-\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
-$$
-
-
 
 
 
