@@ -71,7 +71,7 @@ $$
 $$
 
 $$
-\lambda_t(r, \sigma, S_a, S_0) = 
+\lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ 
 $$
 
 --- 
