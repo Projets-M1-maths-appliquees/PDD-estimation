@@ -86,6 +86,13 @@ $$
 \text{PDD}_T = \mathbb{E}^{\mathbb{Q}} (\sum^{t=0} )
 $$
 
+
+$$
+\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[  \right]
+$$
+
+
+
 --- 
 
 
