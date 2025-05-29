@@ -82,6 +82,10 @@ $$
 $$
 
 
+$$
+\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} (\sum_{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0))
+$$
+
 --- 
 
 
