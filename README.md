@@ -69,7 +69,7 @@ $$
 \mathbb{P} \left( \sup_{t \in [t_1, t_2]} Z_t > M \right) = \exp \left( - \frac{2(a - M)(b - M)}{t_2 - t_1} \right)
 $$
 
-où \(a = Z_{t_1}\) et \(b = Z_{t_2}\).  
+où $a = Z_{t_1}$ et $b = Z_{t_2}$.  
 Cette formule corrige le biais des schémas de discrétisation.
 
 ---
@@ -83,9 +83,9 @@ R_t = \mu_t + L Z_t
 $$
 
 où :
-- \(R_t = (\log(S^1_t/S^1_{t-1}), \ldots, \log(S^d_t/S^d_{t-1}))\),
-- \(\mu_t = \left( (r - \frac{\sigma_1^2}{2})t, \ldots, (r - \frac{\sigma_d^2}{2})t \right)\),
-- \(L\) est la racine de Cholesky de la matrice de covariance \(\Sigma\),
+- $R_t = (\log(S^1_t/S^1_{t-1}), \ldots, \log(S^d_t/S^d_{t-1}))$,
+- $\mu_t = \left( (r - \frac{\sigma_1^2}{2})t, \ldots, (r - \frac{\sigma_d^2}{2})t \right)$,
+- $L$ est la racine de Cholesky de la matrice de covariance \(\Sigma\),
 - $Z_t$ est un vecteur standard normal.
 
 ---
