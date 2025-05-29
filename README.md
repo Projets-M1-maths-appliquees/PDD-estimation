@@ -54,25 +54,20 @@ $$
 \lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ \cdot \mathbf{1}\left\{ S_{t+1} \leq \alpha S_a \right\} \cdot \mathbf{1} \left\{ \sup\limits_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a \right\}
 $$
 
+$$
+\lambda_t(r, \sigma, S_a, S_0) = ( S_a - S_{t+1} )^+ \cdot \mathbf{1}\_{S\_{t+1} \leq \alpha S_a} \cdot \mathbf{1}\_{ \sup\limits\_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a}
+$$
+
+$$
+\lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ \cdot \mathbf{1}\_{\left\{ S\_{t+1} \leq \alpha S_a \right\}} \cdot \mathbf{1}\_{\left\{ \sup\limits\_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a \right\}}
+$$
+
 La PDD cumulée sur $T$ périodes est donnée par :
 
 $$
 \text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum\_{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
 $$
 
----
-
-$$
-\lambda_t(r, \sigma, S_a, S_0) = ( S_a - S_{t+1} )^+ \cdot \mathbf{1}_{S_{t+1} \leq \alpha S_a} \cdot \mathbf{1}_{ \sup\limits_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a}
-$$
-
-$$
-\lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ \cdot \mathbf{1}_{\left\{ S_{t+1} \leq \alpha S_a \right\}} \cdot \mathbf{1}_{\left\{ \sup\limits_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a \right\}}
-$$
-
-$$
-\lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ \cdot \mathbf{1}\_{\left\{ S_{t+1} \leq \alpha S_a \right\}} 
-$$
 
 --- 
 
