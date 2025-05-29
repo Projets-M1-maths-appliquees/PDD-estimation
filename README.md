@@ -51,19 +51,17 @@ $$
 \lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ \cdot \mathbf{1}_{ \{ S_{t+1} \leq \alpha S_a \} } \cdot \mathbf{1}_{ \{ \sup_{u \in (t + 1/2, t+1]} S_u \leq S_a \} }
 $$
 
-La PDD cumulée sur \(T\) périodes est :
+La PDD cumulée sur $T$ périodes est :
 
 $$
-\boxed{
 \text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum_{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
-}
 $$
 
 ---
 
 ### Franchissement de barrière et pont brownien
 
-Entre deux pas de temps \(t_1\) et \(t_2\), on utilise la propriété du **pont brownien** pour calculer la probabilité de franchissement d’une barrière \(M\) :
+Entre deux pas de temps $t_1$ et $t_2$, on utilise la propriété du **pont brownien** pour calculer la probabilité de franchissement d’une barrière \(M\) :
 
 $$
 \mathbb{P} \left( \sup_{t \in [t_1, t_2]} Z_t > M \right) = \exp \left( - \frac{2(a - M)(b - M)}{t_2 - t_1} \right)
