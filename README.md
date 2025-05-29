@@ -57,7 +57,7 @@ $$
 La PDD cumulée sur $T$ périodes est donnée par :
 
 $$
-\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
+\text{PDD}_T = \mathbb{E}^{\mathbb{Q}} \left[ \sum\_{t=0}^{T-1} \lambda_t(r, \sigma, S_a, S_0) \right]
 $$
 
 ---
