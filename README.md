@@ -47,6 +47,9 @@ Cela garantit une **dépréciation durable**.
 
 La perte conditionnelle $\lambda_t$ est alors définie par :
 
+$$ \lambda_t = (S_a - S_{t+1})^+ \cdot \mathbf{1}_{\{ S_{t+1} \leq \alpha S_a \}} $$
+
+
 $$
 \lambda_t(r, \sigma, S_a, S_0) = \left( S_a - S_{t+1} \right)^+ \cdot \mathbf{1}\left\{ S_{t+1} \leq \alpha S_a \right\} \cdot \mathbf{1} \left\{ \sup\limits_{u \in (t + \frac{1}{2}, t+1]} S_u \leq S_a \right\}
 $$
